@@ -4,16 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ultimate CSE Government Jobs Guide 2024 | India</title>
+    <link rel="icon" type="image/ico" href="/favicon.ico">
+    <title>CSE Government Jobs Guide</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap"
         rel="stylesheet">
     <style>
         :root {
             --primary: #4361ee;
-            --secondary: #3f37c9;
+            --secondary: #3a0ca3;
             --accent: #4895ef;
-            --dark: #1a1a2e;
+            --dark: #14213d;
             --light: #f8f9fa;
             --success: #4cc9f0;
             --warning: #f72585;
@@ -21,6 +23,7 @@
             --group-b: #3a86ff;
             --group-c: #4cc9f0;
             --gate: #f72585;
+            --psu: #ff9e00;
         }
 
         * {
@@ -38,7 +41,7 @@
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             padding: 2rem;
         }
@@ -83,13 +86,14 @@
             animation: fadeInDown 1s ease;
         }
 
-        .subtitle {
-            font-size: 1.2rem;
-            opacity: 0.9;
-            max-width: 700px;
-            margin: 0 auto 1.5rem;
-            position: relative;
-            animation: fadeInUp 1s ease 0.3s both;
+        .developer-credit {
+            font-family: 'Roboto Mono', monospace;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 1rem;
+            font-size: 0.9rem;
         }
 
         @keyframes fadeInDown {
@@ -148,11 +152,6 @@
             background: linear-gradient(to right, #fff, #d1d1ff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-        }
-
-        .stat-label {
-            font-size: 0.9rem;
-            opacity: 0.8;
         }
 
         .controls {
@@ -247,6 +246,11 @@
             color: white;
         }
 
+        .tag-psu {
+            background-color: var(--psu);
+            color: white;
+        }
+
         .tag-all {
             background-color: var(--dark);
             color: white;
@@ -258,11 +262,13 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             overflow: hidden;
             animation: fadeIn 1s ease 1.2s both;
+            overflow-x: auto;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
+            min-width: 1000px;
         }
 
         thead {
@@ -275,6 +281,7 @@
             text-align: left;
             font-weight: 500;
             position: relative;
+            white-space: nowrap;
         }
 
         th:after {
@@ -310,6 +317,7 @@
         td {
             padding: 1rem;
             position: relative;
+            vertical-align: top;
         }
 
         .grade-badge {
@@ -328,6 +336,7 @@
             display: inline-flex;
             align-items: center;
             transition: all 0.3s ease;
+            white-space: nowrap;
         }
 
         .website-link i {
@@ -379,6 +388,10 @@
             background-color: #c084fc;
         }
 
+        .timing-dot.varies {
+            background-color: #a1a1aa;
+        }
+
         .no-results {
             text-align: center;
             padding: 3rem;
@@ -416,22 +429,11 @@
             animation: fadeIn 1s ease 1.5s both;
         }
 
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .footer-links a {
+        .developer-signature {
+            font-family: 'Roboto Mono', monospace;
+            margin-top: 1rem;
             color: var(--primary);
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-
-        .footer-links a:hover {
-            color: var(--secondary);
-            text-decoration: underline;
+            font-weight: 500;
         }
 
         .pulse {
@@ -458,16 +460,8 @@
                 padding: 1rem;
             }
 
-            header {
-                padding: 2rem 0;
-            }
-
             h1 {
                 font-size: 2rem;
-            }
-
-            .subtitle {
-                font-size: 1rem;
             }
 
             .stats-container {
@@ -482,16 +476,6 @@
             .stat-value {
                 font-size: 1.8rem;
             }
-
-            table {
-                display: block;
-                overflow-x: auto;
-            }
-
-            th,
-            td {
-                white-space: nowrap;
-            }
         }
     </style>
 </head>
@@ -500,12 +484,15 @@
     <header>
         <div class="container">
             <h1><i class="fas fa-laptop-code"></i> Ultimate CSE Government Jobs Guide</h1>
-            <p class="subtitle">Comprehensive list of 54+ computer science engineering jobs in Indian government sectors
-                with filters, notifications timing, and direct links</p>
+            <p>Comprehensive list of 54+ computer science engineering jobs in Indian government sectors</p>
+
+            <div class="developer-credit">
+                <i class="fas fa-code"></i> Developed by <strong>Dar Rehan Rasool</strong>
+            </div>
 
             <div class="stats-container">
                 <div class="stat-card pulse">
-                    <div class="stat-value">54+</div>
+                    <div class="stat-value">54</div>
                     <div class="stat-label">Job Positions</div>
                 </div>
                 <div class="stat-card">
@@ -513,12 +500,12 @@
                     <div class="stat-label">Group A Jobs</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">18</div>
-                    <div class="stat-label">Organizations</div>
+                    <div class="stat-value">12</div>
+                    <div class="stat-label">PSU Jobs</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">12</div>
-                    <div class="stat-label">GATE Based Jobs</div>
+                    <div class="stat-value">18</div>
+                    <div class="stat-label">Organizations</div>
                 </div>
             </div>
         </div>
@@ -547,6 +534,9 @@
                 <div class="tag tag-gate" data-filter="gate">
                     <i class="fas fa-door-open"></i> GATE Required
                 </div>
+                <div class="tag tag-psu" data-filter="psu">
+                    <i class="fas fa-industry"></i> PSU Jobs
+                </div>
             </div>
         </div>
 
@@ -554,14 +544,14 @@
             <table id="jobsTable">
                 <thead>
                     <tr>
-                        <th>#</th>
-                        <th>Organization</th>
-                        <th>Post Name</th>
-                        <th>Qualification</th>
+                        <th>SR NO</th>
+                        <th>Organization Name</th>
+                        <th>Exam Name</th>
+                        <th>Graduation Qualification</th>
                         <th>Min %</th>
-                        <th>Grade</th>
-                        <th>Notification</th>
-                        <th>Website</th>
+                        <th>Job Post Grade</th>
+                        <th>Notification Timing</th>
+                        <th>Official Website</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -578,17 +568,16 @@
     </div>
 
     <footer>
-        <div class="footer-links">
-            <a href="#"><i class="fas fa-calendar-alt"></i> Recruitment Calendar</a>
-            <a href="#"><i class="fas fa-book"></i> Exam Syllabus</a>
-            <a href="#"><i class="fas fa-download"></i> Download PDF</a>
-        </div>
         <p>Data compiled from official notifications as of July 2024</p>
-        <p>Made with <i class="fas fa-heart" style="color: #f72585;"></i> for CSE aspirants</p>
+        <div class="developer-signature">
+            <i class="fas fa-laptop-code"></i> Developed by <strong>Dar Rehan Rasool</strong>
+        </div>
     </footer>
 
     <script>
-        // Job data array
+        // Complete job data with ALL fields from PDF
+
+
         const jobs = [
             {
                 id: 1,
@@ -598,7 +587,9 @@
                 percentage: "60%",
                 grade: "group-a",
                 timing: "varies",
-                website: "https://nic.in"
+                website: "https://nic.in",
+                isPsu: false,
+                hasGate: false
             },
             {
                 id: 2,
@@ -608,7 +599,9 @@
                 percentage: "60%",
                 grade: "group-a",
                 timing: "varies",
-                website: "https://nic.in"
+                website: "https://nic.in",
+                isPsu: false,
+                hasGate: false
             },
             {
                 id: 3,
@@ -618,7 +611,9 @@
                 percentage: "55%",
                 grade: "group-b",
                 timing: "varies",
-                website: "https://nic.in"
+                website: "https://nic.in",
+                isPsu: false,
+                hasGate: false
             },
             {
                 id: 4,
@@ -628,7 +623,9 @@
                 percentage: "60%",
                 grade: "group-a",
                 timing: "varies",
-                website: "https://cdac.in"
+                website: "https://cdac.in",
+                isPsu: false,
+                hasGate: false
             },
             {
                 id: 5,
@@ -638,7 +635,9 @@
                 percentage: "60%",
                 grade: "group-a",
                 timing: "varies",
-                website: "https://cdac.in"
+                website: "https://cdac.in",
+                isPsu: false,
+                hasGate: false
             },
             {
                 id: 6,
@@ -648,7 +647,9 @@
                 percentage: "60%",
                 grade: "group-a",
                 timing: "varies",
-                website: "https://drdo.gov.in"
+                website: "https://drdo.gov.in",
+                isPsu: false,
+                hasGate: false
             },
             {
                 id: 7,
@@ -658,7 +659,9 @@
                 percentage: "60%",
                 grade: "group-a",
                 timing: "early",
-                website: "https://barc.gov.in"
+                website: "https://barc.gov.in",
+                isPsu: false,
+                hasGate: false
             },
             {
                 id: 8,
@@ -668,7 +671,9 @@
                 percentage: "65%",
                 grade: "group-a",
                 timing: "mid",
-                website: "https://isro.gov.in"
+                website: "https://isro.gov.in",
+                isPsu: false,
+                hasGate: false
             },
             {
                 id: 9,
@@ -678,7 +683,9 @@
                 percentage: "50%",
                 grade: "group-b",
                 timing: "varies",
-                website: "https://dsssb.delhi.gov.in"
+                website: "https://dsssb.delhi.gov.in",
+                isPsu: false,
+                hasGate: false
             },
             {
                 id: 10,
@@ -688,10 +695,526 @@
                 percentage: "55%",
                 grade: "group-b",
                 timing: "varies",
-                website: "https://dsssb.delhi.gov.in"
+                website: "https://dsssb.delhi.gov.in",
+                isPsu: false,
+                hasGate: false
             },
-            // Add all 54 jobs here in the same format
-            // ...
+            {
+                id: 11,
+                org: "Kendriya Vidyalaya Sangathan",
+                post: "KVS TGT CS",
+                qualification: "Bachelor's Degree in CS/IT",
+                percentage: "50%",
+                grade: "group-b",
+                timing: "mid",
+                website: "https://kvsangathan.nic.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 12,
+                org: "Kendriya Vidyalaya Sangathan",
+                post: "KVS PGT CS",
+                qualification: "Master's Degree in CS/IT",
+                percentage: "55%",
+                grade: "group-b",
+                timing: "mid",
+                website: "https://kvsangathan.nic.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 13,
+                org: "Netaji Subhas Institute of Technology",
+                post: "NSIT Technical Assistant CS",
+                qualification: "Diploma/B.Tech in CS/IT",
+                percentage: "50%",
+                grade: "group-c",
+                timing: "varies",
+                website: "https://nsit.ac.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 14,
+                org: "National Institutes of Technology",
+                post: "NITs Technical Assistant CS",
+                qualification: "Diploma/B.Tech in CS/IT",
+                percentage: "50%",
+                grade: "group-c",
+                timing: "varies",
+                website: "Specific to each NIT",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 15,
+                org: "Indian Institutes of Technology",
+                post: "IITs Technical Assistant CS",
+                qualification: "Diploma/B.Tech in CS/IT",
+                percentage: "50%",
+                grade: "group-c",
+                timing: "varies",
+                website: "Specific to each IIT",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 16,
+                org: "Indian Institutes of Technology",
+                post: "IITs Technical Officer CS",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "varies",
+                website: "Specific to each IIT",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 17,
+                org: "All India Institute of Medical Sciences",
+                post: "AIMS Programmer",
+                qualification: "Bachelor's Degree in CS/IT",
+                percentage: "55%",
+                grade: "group-b",
+                timing: "varies",
+                website: "https://aiimsexams.ac.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 18,
+                org: "Union Public Service Commission",
+                post: "UPSC Data Processing Assistant",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-b",
+                timing: "annual",
+                website: "https://upsc.gov.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 19,
+                org: "Union Public Service Commission",
+                post: "UPSC DPIO",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "annual",
+                website: "https://upsc.gov.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 20,
+                org: "Hindustan Aeronautics Limited",
+                post: "HAL Management Trainee- CS/IT",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "mid",
+                website: "https://hal-india.co.in",
+                isPsu: true,
+                hasGate: false
+            },
+            {
+                id: 21,
+                org: "Securities and Exchange Board of India",
+                post: "SEBI Grade A CS",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "varies",
+                website: "https://sebi.gov.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 22,
+                org: "Coal India Limited",
+                post: "Coal India- CS",
+                qualification: "B.Tech/B.E. in CS/IT (GATE required)",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "gate",
+                website: "https://coalindia.in",
+                isPsu: true,
+                hasGate: true
+            },
+            {
+                id: 23,
+                org: "Indian Oil Corporation Limited",
+                post: "IOCL- CSE",
+                qualification: "B.Tech/B.E. in CS/IT (GATE required)",
+                percentage: "65%",
+                grade: "group-a",
+                timing: "gate",
+                website: "https://iocl.com",
+                isPsu: true,
+                hasGate: true
+            },
+            {
+                id: 24,
+                org: "Oil and Natural Gas Corporation",
+                post: "ONGC-CSE",
+                qualification: "B.Tech/B.E. in CS/IT (GATE required)",
+                percentage: "65%",
+                grade: "group-a",
+                timing: "gate",
+                website: "https://ongcindia.com",
+                isPsu: true,
+                hasGate: true
+            },
+            {
+                id: 25,
+                org: "Rajasthan Public Service Commission",
+                post: "RPSC Programmer",
+                qualification: "Bachelor's Degree in CS/IT",
+                percentage: "60%",
+                grade: "group-b",
+                timing: "varies",
+                website: "https://rpsc.rajasthan.gov.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 26,
+                org: "National Institute of Electronics & Information Technology",
+                post: "NIELIT Scientist B",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "varies",
+                website: "https://nielit.gov.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 27,
+                org: "Ministry of Electronics and Information Technology",
+                post: "MEITY Scientist B",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "varies",
+                website: "https://meity.gov.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 28,
+                org: "Standardisation, Testing and Quality Certification Directorate",
+                post: "STQC Scientist B",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "varies",
+                website: "https://stqc.gov.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 29,
+                org: "Indian Computer Emergency Response Team",
+                post: "ICERT Scientist B",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "varies",
+                website: "https://cert-in.org.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 30,
+                org: "Inter-University Accelerator Centre",
+                post: "IUAC CSE",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "varies",
+                website: "https://iuac.res.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 31,
+                org: "Software Technology Parks of India",
+                post: "STPI",
+                qualification: "Bachelor's Degree in CS/IT",
+                percentage: "60%",
+                grade: "group-b",
+                timing: "varies",
+                website: "https://stpi.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 32,
+                org: "Airports Authority of India",
+                post: "AAI JE CSE",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-b",
+                timing: "annual",
+                website: "https://aai.aero",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 33,
+                org: "State Bank of India",
+                post: "SBI SO(IT)",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-b",
+                timing: "varies",
+                website: "https://sbi.co.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 34,
+                org: "Power Grid Corporation of India Limited",
+                post: "PGCIL CS",
+                qualification: "B.Tech/B.E. in CS/IT (GATE required)",
+                percentage: "65%",
+                grade: "group-a",
+                timing: "gate",
+                website: "https://powergridindia.com",
+                isPsu: true,
+                hasGate: true
+            },
+            {
+                id: 35,
+                org: "Central Bureau of Investigation",
+                post: "CBI (Technical Assistant)",
+                qualification: "Bachelor's Degree in CS/IT",
+                percentage: "60%",
+                grade: "group-c",
+                timing: "varies",
+                website: "https://cbi.gov.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 36,
+                org: "Intelligence Bureau",
+                post: "Intelligence Bureau CS",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "annual",
+                website: "https://mha.gov.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 37,
+                org: "Bureau of Indian Standards",
+                post: "BIS Scientist B CSE",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "annual",
+                website: "https://bis.gov.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 38,
+                org: "Bharat Electronics Limited",
+                post: "BEL CS",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "varies",
+                website: "https://bel-india.in",
+                isPsu: true,
+                hasGate: false
+            },
+            {
+                id: 39,
+                org: "Steel Authority of India Limited",
+                post: "SAIL CS",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "varies",
+                website: "https://sail.co.in",
+                isPsu: true,
+                hasGate: false
+            },
+            {
+                id: 40,
+                org: "Food Safety and Standards Authority of India",
+                post: "FSSAI (Food Safety Officer CSE)",
+                qualification: "Bachelor's Degree in CS/IT",
+                percentage: "60%",
+                grade: "group-b",
+                timing: "annual",
+                website: "https://fssai.gov.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 41,
+                org: "Institute of Banking Personnel Selection",
+                post: "IBPS SO IT",
+                qualification: "Bachelor's Degree in CS/IT",
+                percentage: "60%",
+                grade: "group-b",
+                timing: "annual",
+                website: "https://ibps.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 42,
+                org: "Institute of Banking Personnel Selection",
+                post: "IBPS RRB IT",
+                qualification: "Bachelor's Degree in CS/IT",
+                percentage: "50%",
+                grade: "group-b",
+                timing: "annual",
+                website: "https://ibps.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 43,
+                org: "Institute of Banking Personnel Selection",
+                post: "IBPS RRB SCALE 2 IT",
+                qualification: "Bachelor's Degree in CS/IT",
+                percentage: "50%",
+                grade: "group-b",
+                timing: "annual",
+                website: "https://ibps.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 44,
+                org: "The New India Assurance Co. Ltd.",
+                post: "NIACL Administrative Officer",
+                qualification: "Bachelor's Degree in CS/IT",
+                percentage: "60%",
+                grade: "group-b",
+                timing: "varies",
+                website: "https://newindia.co.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 45,
+                org: "Staff Selection Commission",
+                post: "SSC Executive (IT Navy)",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-b",
+                timing: "varies",
+                website: "https://ssc.nic.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 46,
+                org: "Security Printing & Minting Corporation of India Limited",
+                post: "SPMCIL Assistant Manager",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-b",
+                timing: "varies",
+                website: "https://spmcil.com",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 47,
+                org: "Pension Fund Regulatory and Development Authority",
+                post: "PFRDA CS IT",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "varies",
+                website: "https://pfrda.org.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 48,
+                org: "National Bank for Agriculture and Rural Development",
+                post: "NABARD IT",
+                qualification: "Bachelor's Degree in CS/IT",
+                percentage: "60%",
+                grade: "group-b",
+                timing: "annual",
+                website: "https://nabard.org",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 49,
+                org: "Indian Railways",
+                post: "RRB JE(ELECTRONICS/IT)",
+                qualification: "Diploma/B.Tech in Electronics/IT",
+                percentage: "60%",
+                grade: "group-c",
+                timing: "annual",
+                website: "https://rrbcdg.gov.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 50,
+                org: "NLC India Limited",
+                post: "NLC India Limited",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "varies",
+                website: "https://nlcindia.in",
+                isPsu: true,
+                hasGate: false
+            },
+            {
+                id: 51,
+                org: "Cabinet Secretariat",
+                post: "Cabinet Secretariat DFO Tech Recruitment",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "varies",
+                website: "https://cabsec.gov.in",
+                isPsu: false,
+                hasGate: false
+            },
+            {
+                id: 52,
+                org: "Power System Operation Corporation Limited",
+                post: "POSOCO",
+                qualification: "B.Tech/B.E. in CS/IT (GATE required)",
+                percentage: "65%",
+                grade: "group-a",
+                timing: "gate",
+                website: "https://posoco.in",
+                isPsu: true,
+                hasGate: true
+            },
+            {
+                id: 53,
+                org: "Nuclear Power Corporation of India Limited",
+                post: "NPCIL",
+                qualification: "B.Tech/B.E. in CS/IT or equivalent",
+                percentage: "60%",
+                grade: "group-a",
+                timing: "annual",
+                website: "https://npcil.nic.in",
+                isPsu: true,
+                hasGate: false
+            },
             {
                 id: 54,
                 org: "National Testing Agency",
@@ -700,9 +1223,12 @@
                 percentage: "55%",
                 grade: "group-b",
                 timing: "varies",
-                website: "https://ugcnet.nta.nic.in"
+                website: "https://ugcnet.nta.nic.in",
+                isPsu: false,
+                hasGate: false
             }
         ];
+
 
         // Populate table with jobs
         const tbody = document.querySelector('#jobsTable tbody');
@@ -719,15 +1245,11 @@
                 jobsToRender.forEach(job => {
                     const row = document.createElement('tr');
                     row.setAttribute('data-grade', job.grade);
-                    if (job.post.includes('GATE')) row.setAttribute('data-gate', 'true');
+                    if (job.hasGate) row.setAttribute('data-gate', 'true');
+                    if (job.isPsu) row.setAttribute('data-psu', 'true');
 
                     // Determine timing dot class
-                    let timingDotClass = '';
-                    if (job.timing === 'early') timingDotClass = 'early';
-                    else if (job.timing === 'mid') timingDotClass = 'mid';
-                    else if (job.timing === 'late') timingDotClass = 'late';
-                    else if (job.timing === 'annual') timingDotClass = 'annual';
-                    else if (job.timing === 'gate') timingDotClass = 'gate';
+                    let timingDotClass = job.timing;
 
                     // Determine grade badge
                     let gradeBadgeClass = '';
@@ -756,7 +1278,11 @@
                                 ${formatTiming(job.timing)}
                             </div>
                         </td>
-                        <td><a href="${job.website}" class="website-link" target="_blank">Visit <i class="fas fa-external-link-alt"></i></a></td>
+                        <td>
+                            ${job.website.includes('http') ?
+                            `<a href="${job.website}" class="website-link" target="_blank">Visit <i class="fas fa-external-link-alt"></i></a>` :
+                            job.website}
+                        </td>
                     `;
 
                     tbody.appendChild(row);
@@ -806,14 +1332,20 @@
                     job.qualification.toLowerCase().includes(searchTerm) ||
                     job.grade.includes(searchTerm);
 
-                // Apply grade filter
+                // Apply active filter
                 let matchesFilter = true;
-                if (activeFilter !== 'all') {
-                    if (activeFilter === 'gate') {
-                        matchesFilter = job.post.includes('GATE');
-                    } else {
+                switch (activeFilter) {
+                    case 'all':
+                        matchesFilter = true;
+                        break;
+                    case 'gate':
+                        matchesFilter = job.hasGate;
+                        break;
+                    case 'psu':
+                        matchesFilter = job.isPsu;
+                        break;
+                    default:
                         matchesFilter = job.grade === activeFilter;
-                    }
                 }
 
                 return matchesSearch && matchesFilter;
@@ -821,21 +1353,6 @@
 
             renderJobs(filteredJobs);
         }
-
-        // Animation on scroll
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate');
-                }
-            });
-        }, {
-            threshold: 0.1
-        });
-
-        document.querySelectorAll('.stat-card, .job-table-container, footer').forEach(el => {
-            observer.observe(el);
-        });
     </script>
 </body>
 
